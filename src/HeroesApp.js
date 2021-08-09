@@ -1,5 +1,5 @@
 import React, {useReducer} from 'react';
-import { AuthContext } from './auth/authContext';
+import { AuthContext } from './auth/AuthContext';
 import { authReducer } from './auth/authReducer';
 import { AppRouter } from './routers/AppRouter';
 
