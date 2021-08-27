@@ -1,0 +1,19 @@
+#login {
+    margin-left: 80%; 
+}
+#nav {
+    padding-left: 3%;
+}
+
+@media (max-width: 769px) and (min-width:0px){
+    #login {
+        margin-left: 50%; 
+    }
+}
+
+@media(max-width: 1200px) and (min-width:768px){
+    #login {
+        margin-left: 75%; 
+    } 
+}
+
