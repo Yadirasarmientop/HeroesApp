@@ -10,6 +10,7 @@ export const LoginScreen = ({history}) => {
 
     const handlelogin = () => {
        // history.push('/');
+       history.replace('/');
        
         dispatch ( {
             type: types.login, 
@@ -17,7 +18,6 @@ export const LoginScreen = ({history}) => {
                 name: 'Yadira'
             }
         })
-        history.replace('/');
     }
     return (
         <div className="container mt-5">
